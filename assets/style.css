@@ -40,3 +40,16 @@
     display: inline;
 
 }
+.navbar a{
+    color: white;
+    text-decoration: none;
+    -webkit-transition: color .5s ;
+    -moz-transition: color .5s ;
+    transition: color .5s ;
+}
+
+/*  BREAKPOINT */
+
+.navbar a:hover{
+    color: orange;
+}
