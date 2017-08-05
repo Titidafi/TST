@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    clear: both;
+}
+
+.topHeader{
+   
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    height: 336px;
+    background-color: #101010;
+}
+.topHeader h1{
+     font-style: italic;
+    font-size: 130px;
+}
+.topHeader hr{
+    background-color:white; 
+    margin: auto;
+    display: block;
+    width: 850px;
+}
