@@ -1,14 +1,15 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     clear: both;
 }
-body{
+
+body {
     background-color: #101010;
+    height: 2000px;
 }
 
-.topHeader{
-   
+.topHeader {
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     text-transform: uppercase;
@@ -16,43 +17,47 @@ body{
     height: 336px;
     background-color: #101010;
 }
-.topHeader h1{
+
+.topHeader h1 {
     font-weight: 100;
-     font-style: italic;
+    font-style: italic;
     font-size: 130px;
 }
-.topHeader hr{
-    background-color:white; 
+
+.topHeader hr {
+    background-color: white;
     margin: auto;
     display: block;
     width: 850px;
 }
-.navbar{
+
+.navbar {
     font-size: 25px;
     font-weight: 1000;
     display: inline;
 }
-.navbar ul{
+
+.navbar ul {
     margin-top: 20px;
     list-style: none;
-
-    
 }
-.navbar ul li{
+
+.navbar ul li {
     margin-left: 40px;
     display: inline;
-
 }
-.navbar a{
+
+.navbar a {
     color: white;
     text-decoration: none;
-    -webkit-transition: color .5s ;
-    -moz-transition: color .5s ;
-    transition: color .5s ;
+    -webkit-transition: color .5s;
+    -moz-transition: color .5s;
+    transition: color .5s;
 }
+
 
 /*  BREAKPOINT */
 
-.navbar a:hover{
+.navbar a:hover {
     color: orange;
 }
