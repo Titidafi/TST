@@ -15,8 +15,9 @@ body {
     text-transform: uppercase;
     color: white;
     height: 336px;
-    background-color: #101010;
+
 }
+
 
 .topHeader h1 {
     font-weight: 100;
@@ -25,6 +26,7 @@ body {
 }
 
 .topHeader hr {
+   opacity: 0;
     background-color: white;
     margin: auto;
     display: block;
@@ -43,9 +45,12 @@ body {
 }
 
 .navbar ul li {
-    margin-left: 40px;
     display: inline;
 }
+.navbar ul li + li {
+margin-left: 40px;
+}
+    
 
 .navbar a {
     color: white;
@@ -54,10 +59,57 @@ body {
     -moz-transition: color .5s;
     transition: color .5s;
 }
-h3{
-    margin-top: 100px;
+
+#element1{
+    opacity: 0;
+}
+#element2{
+    opacity: 0;
+}
+#element3{
+    opacity: 0;
+}
+#element4{
+    opacity: 0;
+}
+#element5{
+    opacity: 0;
 
 }
+#ma_personne{
+}
+#ma_personne #content{
+    color: #999;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #333;
+    border-radius: 20px;
+    padding: 30px;
+    width: 1000px;
+    margin: auto;
+    height: 200px;
+
+
+
+}
+#ma_personne #content p {
+    margin-top: 20px;
+
+}
+#ma_personne #content h3{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ccc;
+    text-transform: uppercase;
+}
+#bg{
+    z-index: -3;
+    position: fixed;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+
+}
+
 
 /*  BREAKPOINT */
 
