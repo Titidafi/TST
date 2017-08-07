@@ -27,4 +27,9 @@ $(document).ready(function () {
 
 
     });
+    $('h3').css('opacity', 0);
+ 
+  $('h1').click(function() {
+      $('h3').addClass('fadeInLeft');
+  }, { offset: '90%' });
 });

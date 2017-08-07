@@ -54,7 +54,10 @@ body {
     -moz-transition: color .5s;
     transition: color .5s;
 }
+h3{
+    margin-top: 100px;
 
+}
 
 /*  BREAKPOINT */
 
