@@ -6,38 +6,44 @@ $(document).ready(function () {
         $('hr').addClass('animated fadeIn');
     }, 1000);
     var index = 1;
-    var menu_timeout = 1000;
+    var menu_timeout = 2 * 800;
+    var ecart = 500;
 
     setTimeout(function () {
 
         $('#element' + index).addClass('animated fadeIn');
         index = index + 1;
-    }, 2 * menu_timeout);
+    }, menu_timeout);
 
     setTimeout(function () {
         $('#element' + index).addClass('animated fadeIn');
         index = index + 1;
-    }, 3 * menu_timeout);
+    }, menu_timeout + ecart);
 
     setTimeout(function () {
         $('#element' + index).addClass('animated fadeIn');
         index = index + 1;
-    }, 4 * menu_timeout);
+    }, menu_timeout + ecart*2);
 
     setTimeout(function () {
         $('#element' + index).addClass('animated fadeIn');
         index = index + 1;
-    }, 5 * menu_timeout);
+    }, menu_timeout + ecart*3);
 
     setTimeout(function () {
         $('#element' + index).addClass('animated fadeIn');
         index = index + 1;
-    }, 6 * menu_timeout);
-
+    }, menu_timeout + ecart*4);
+    
+ ////////////////////// ANIMATIONS ON SCROLL ////////////////
     $('#ma_personne').css('opacity', 0);
  
   $('#ma_personne').waypoint(function() {
       $('#ma_personne').addClass('animated fadeInLeft');
   }, { offset: '25%' });
+
+
+    ////////////////// ANIMATED BACKGROUND ////////////////
+
     $('#bg').particleground();
 });
