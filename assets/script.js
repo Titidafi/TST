@@ -34,12 +34,20 @@ $(document).ready(function () {
         $('#element' + index).addClass('animated fadeIn');
         index = index + 1;
     }, menu_timeout + ecart*4);
-    
+
+
  ////////////////////// ANIMATIONS ON SCROLL ////////////////
     $('#ma_personne').css('opacity', 0);
  
   $('#ma_personne').waypoint(function() {
       $('#ma_personne').addClass('animated fadeInLeft');
+      setTimeout(function(){
+      $('#ico1').addClass('animated fadeInUp');
+      }, 700);
+      setTimeout(function(){
+      $('#ico2').addClass('animated fadeInUp');
+      }, 1000);
+
   }, { offset: '25%' });
 
 

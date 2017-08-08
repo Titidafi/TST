@@ -107,6 +107,17 @@ margin-left: 40px;
     height: 100%;
     width: 100%;
 }
+#icon_software{
+    margin-top: 40px;
+    text-align: center;
+    height: 90px;
+
+}
+#icon_software img{
+    height: 90px;
+    margin-left: 60px;
+    opacity: 0;
+}
 
 
 /*  BREAKPOINT */
